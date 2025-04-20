@@ -1,9 +1,15 @@
 // SOME KEY DOCUMENTATION ABOUT THIS PROJECT
 
 // .......FORM SUBMISSION........
-// 1) Used web3 form for form submission
-// . visit web3form.com, click on get access key to generate ur access key
-// .
+// NB: at terminal run: npm i emailjs/browser
+// 1) Used emailjs form for form submission
+// 2) visit emailjs and create an account, at the left click email
+// service and put ur gmail, click email template to customize your
+// template and save
+// click on docs at the example side select React and copy the form code.
+// NB: provide name property for all the input fields. same name as in
+// your email template in emailjs
+// username = 'name', email ='email', phone='number', message='message'
 
 // .....SCROLLING.....
 // . at the terminal: npm i react-scrol copied from react scrol.com
