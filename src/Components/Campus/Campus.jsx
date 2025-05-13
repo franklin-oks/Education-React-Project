@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import "./Campus.css";
-import me from "../../assets/me.jpg";
-import AOS from "aos";
+// import me from "../../assets/me.jpg";
+import aos from "aos";
 import "aos/dist/aos.css";
 
 const Campus = () => {
   useEffect(() => {
-    AOS.init({
+    aos.init({
       duration: 1000,
       once: true,
       mirror: true,
