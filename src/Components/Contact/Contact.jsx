@@ -105,7 +105,7 @@ const Contact = () => {
               : "Submit Now"}
           </button>
         </form>
-        {/* <span>{status}</span> */}
+
         {status === "error" && (
           <span style={{ color: "red", marginTop: "10px" }}>
             Failed to send. Please try again.

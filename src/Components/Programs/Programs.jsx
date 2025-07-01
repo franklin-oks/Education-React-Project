@@ -1,13 +1,11 @@
 import "./Programs.css";
-import program_1 from "../../assets/me.jpg";
-import aptech from "../../assets/download.jpg";
 
 const Programs = () => {
   return (
     <div className="programs container" id="program">
       <div className="program">
         <img
-          src="https://media.istockphoto.com/id/143071519/photo/smiling-graduates-hugging-outdoors.jpg?s=1024x1024&w=is&k=20&c=cE21RJRnynYww080t_iQDlKv0vTm9lDfp0ZntshfvC8="
+          src="https://images.unsplash.com/photo-1618355776464-8666794d2520?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="prog"
         />
         <div className="caption">

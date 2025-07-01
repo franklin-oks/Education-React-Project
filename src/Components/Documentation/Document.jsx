@@ -13,7 +13,7 @@
 
 // .....SCROLLING.....
 // . at the terminal: npm i react-scrol copied from react scrol.com
-// . scrow down to a this function below:
+// . scrow down to  this function below:
 // Function to handle the activation of a link.
 //  const handleSetActive = (to) => {
 //     console.log(to);

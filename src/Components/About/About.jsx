@@ -1,6 +1,5 @@
 import "./About.css";
 import play from "../../assets/play.png";
-// import me from "../../assets/me.jpg";
 
 const About = ({ setIsPlaying }) => {
   return (

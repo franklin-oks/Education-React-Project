@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./Campus.css";
-// import me from "../../assets/me.jpg";
 import aos from "aos";
 import "aos/dist/aos.css";
 
