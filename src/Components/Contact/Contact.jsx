@@ -15,9 +15,12 @@ const Contact = () => {
     setStatus("Sending...");
 
     emailjs
-      .sendForm("service_r9alg6a", "template_tqa1tic", form.current, {
-        publicKey: "q4EfsK0o1PrQ4eUVs",
-      })
+      .sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        form.current,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      )
       .then(
         () => {
           form.current.reset();
@@ -29,6 +32,7 @@ const Contact = () => {
         },
         (error) => {
           console.warn("FAILED...", error.text);
+          setStatus("error");
         }
       );
   };
